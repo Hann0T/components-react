@@ -5,11 +5,14 @@ import { FaCalendar } from 'react-icons/fa';
 import { FaFileAlt } from 'react-icons/fa';
 import { FaSignal } from 'react-icons/fa';
 
-import profileImg from './img/elon-musk.jpg';
+import { FaRegUser } from 'react-icons/fa';
+
+// import profileImg from './img/elon-musk.jpg';
 
 const profile = {
   name: 'Elon Musk',
-  img: profileImg,
+  // img: profileImg,
+  img: '',
 };
 
 const items = [
@@ -45,12 +48,15 @@ const SideBarItem = ({ icon, text }) => {
 
 const ProfileCard = ({ name, img }) => {
   return (
-    <div className='flex py-4'>
-      <img
-        src={img}
-        alt={name}
-        className='rounded-full object-cover w-12 h-12'
-      />
+    <div className='flex items-center py-4'>
+      {!img && <FaRegUser className='text-3xl' />}
+      {img && (
+        <img
+          src={img}
+          alt={name}
+          className='rounded-full object-cover w-12 h-12'
+        />
+      )}
       <div className='pl-4'>
         <p>{name}</p>
         <a href='#' className='opacity-80 text-sm'>
