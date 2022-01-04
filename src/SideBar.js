@@ -59,7 +59,7 @@ const ProfileCard = ({ name, img }) => {
       )}
       <div className='pl-4'>
         <p>{name}</p>
-        <a href='#' className='opacity-80 text-sm'>
+        <a href='https://www.google.com' className='opacity-80 text-sm'>
           View profile
         </a>
       </div>
