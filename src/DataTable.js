@@ -1,5 +1,3 @@
-import './App.css';
-
 const people = [
   {
     name: 'Jane Cooper',
@@ -39,7 +37,7 @@ const people = [
   },
 ];
 
-function App() {
+function DataTable() {
   return (
     <div className='flex flex-col'>
       <div className='-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8'>
@@ -134,4 +132,4 @@ function App() {
   );
 }
 
-export default App;
+export { DataTable };
