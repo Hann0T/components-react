@@ -31,7 +31,61 @@ const people = [
     title: 'Regional Paradigm Technician',
     department: 'Optimization',
     role: 'Admin',
-    email: 'j4ane.cooper@example.com',
+    email: 'j4ane.cooper@exaple.com',
+    image:
+      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60',
+  },
+  {
+    name: 'Jane Cooper',
+    title: 'Regional Paradigm Technician',
+    department: 'Optimization',
+    role: 'Admin',
+    email: 'j4ane.cooper@eample.com',
+    image:
+      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60',
+  },
+  {
+    name: 'Jane Cooper',
+    title: 'Regional Paradigm Technician',
+    department: 'Optimization',
+    role: 'Admin',
+    email: 'j4ane.cooer@example.com',
+    image:
+      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60',
+  },
+  {
+    name: 'Jane Cooper',
+    title: 'Regional Paradigm Technician',
+    department: 'Optimization',
+    role: 'Admin',
+    email: 'j4ane.coper@example.com',
+    image:
+      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60',
+  },
+  {
+    name: 'Jane Cooper',
+    title: 'Regional Paradigm Technician',
+    department: 'Optimization',
+    role: 'Admin',
+    email: 'j4ane.ooper@example.com',
+    image:
+      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60',
+  },
+  {
+    name: 'Jane Cooper',
+    title: 'Regional Paradigm Technician',
+    department: 'Optimization',
+    role: 'Admin',
+    email: 'j4a.cooper@example.com',
+    image:
+      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60',
+  },
+  {
+    name: 'Jane Cooper',
+    title: 'Regional Paradigm Technician',
+    department: 'Optimization',
+    role: 'Admin',
+    email: 'j4an.cooper@example.com',
     image:
       'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60',
   },
