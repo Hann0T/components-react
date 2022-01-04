@@ -7,6 +7,11 @@ import { FaSignal } from 'react-icons/fa';
 
 import profileImg from './img/elon-musk.jpg';
 
+const profile = {
+  name: 'Elon Musk',
+  img: profileImg,
+};
+
 const items = [
   { text: 'Dashboard', icon: <FaHouseUser /> },
   { text: 'Team', icon: <AiOutlineTeam /> },
@@ -24,7 +29,7 @@ const SideBar = () => {
         <SideBarItem key={item.text} text={item.text} icon={item.icon} />
       ))}
       <hr className='relative left-[-1em] w-screen mt-auto border-t-1 border-indigo-800' />
-      <ProfileCard name='Elon Musk' img={profileImg} />
+      <ProfileCard name={profile.name} img={profile.img} />
     </div>
   );
 };
