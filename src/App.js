@@ -5,10 +5,14 @@ import { SideBar } from './SideBar';
 
 const App = () => {
   return (
-    <div className='max-w-7xl mx-auto sm:px-6 lg:px-8'>
-      {/* <DataTable /> */}
+    <>
       <SideBar />
-    </div>
+      <div className='pl-48 pt-16 min-h-screen'>
+        <div className='max-w-7xl mx-auto sm:px-6 lg:px-8'>
+          <DataTable />
+        </div>
+      </div>
+    </>
   );
 };
 
