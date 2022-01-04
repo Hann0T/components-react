@@ -1,15 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import App from './App';
+import { App } from './App';
 
 import './index.css';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <div className='max-w-7xl mx-auto sm:px-6 lg:px-8'>
-      <App />
-    </div>
-  </React.StrictMode>,
-  document.getElementById('root'),
-);
+ReactDOM.render(<App />, document.getElementById('root'));
