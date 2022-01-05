@@ -3,6 +3,7 @@ import React from 'react';
 import { DataTable } from './DataTable';
 import { SideBar } from './SideBar';
 import { StackedLayout } from './StackedLayout';
+import { GridLists } from './GridLists';
 
 const App = () => {
   return (
@@ -13,7 +14,9 @@ const App = () => {
       {/*     <DataTable /> */}
       {/*   </div> */}
       {/* </div> */}
-      <StackedLayout />
+      <StackedLayout>
+        <GridLists />
+      </StackedLayout>
     </>
   );
 };
