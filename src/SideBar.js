@@ -1,11 +1,12 @@
-import { FaHouseUser } from 'react-icons/fa';
+import {
+  FaSignal,
+  FaHouseUser,
+  FaRegUser,
+  FaFileAlt,
+  FaCalendar,
+  FaReact,
+} from 'react-icons/fa';
 import { AiOutlineTeam } from 'react-icons/ai';
-import { FaReact } from 'react-icons/fa';
-import { FaCalendar } from 'react-icons/fa';
-import { FaFileAlt } from 'react-icons/fa';
-import { FaSignal } from 'react-icons/fa';
-
-import { FaRegUser } from 'react-icons/fa';
 
 // import profileImg from './img/elon-musk.jpg';
 
