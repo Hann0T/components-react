@@ -1,6 +1,7 @@
 import { MailIcon, PhoneIcon } from '@heroicons/react/solid';
+import React from 'react';
 
-const items = [
+let items = [
   {
     name: 'Jane Cooper',
     role: 'Admin',
@@ -32,9 +33,10 @@ const items = [
 ];
 
 const GridLists = () => {
+  const [people, setPeople] = React.useState(items);
   return (
     <div className='grid gap-4 md:grid-cols-2 lg:grid-cols-3 '>
-      {items.map((item) => (
+      {people.map((item) => (
         <GridItem key={item.name} {...item} />
       ))}
     </div>
