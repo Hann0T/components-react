@@ -1,41 +1,41 @@
-import { MailIcon, PhoneIcon } from '@heroicons/react/solid';
-import React from 'react';
+import { MailIcon, PhoneIcon } from "@heroicons/react/solid";
+import React from "react";
 
 let items = [
   {
-    name: 'Jane Cooper',
-    role: 'Admin',
-    descripcion: 'Regional Paradigm Technician',
+    name: "Jane Cooper",
+    role: "Admin",
+    descripcion: "Regional Paradigm Technician",
     imgUrl:
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60',
+      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60",
   },
   {
-    name: 'Cody Fisher',
-    role: 'Admin',
-    descripcion: 'Regional Paradigm Technician',
+    name: "Cody Fisher",
+    role: "Admin",
+    descripcion: "Regional Paradigm Technician",
     imgUrl:
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60',
+      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60",
   },
   {
-    name: 'Esther Howard',
-    role: 'Admin',
-    descripcion: 'Regional Paradigm Technician',
+    name: "Esther Howard",
+    role: "Admin",
+    descripcion: "Regional Paradigm Technician",
     imgUrl:
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60',
+      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60",
   },
   {
-    name: 'Jenny Wilson',
-    role: 'Admin',
-    descripcion: 'Regional Paradigm Technician',
+    name: "Jenny Wilson",
+    role: "Admin",
+    descripcion: "Regional Paradigm Technician",
     imgUrl:
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60',
+      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60",
   },
 ];
 
 const GridLists = () => {
   const [people, setPeople] = React.useState(items);
   return (
-    <div className='grid gap-4 md:grid-cols-2 lg:grid-cols-3 '>
+    <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3 ">
       {people.map((item) => (
         <GridItem key={item.name} {...item} />
       ))}
